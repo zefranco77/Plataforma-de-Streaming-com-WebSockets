@@ -1,0 +1,21 @@
+REDIS_URL=redis://localhost:6379
+PORT=8080
+
+
+---
+
+### 📄 `package.json`
+```json
+{
+  "name": "streaming-websockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "redis": "^4.6.5",
+    "ws": "^8.12.0"
+  }
+}
